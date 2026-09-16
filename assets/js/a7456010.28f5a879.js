@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklambda_api_decorators_docs=self.webpackChunklambda_api_decorators_docs||[]).push([[235],{8552(a){a.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);

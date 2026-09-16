@@ -1,0 +1,48 @@
+:root {
+  --lad-navy-950: #08111f;
+  --lad-navy-900: #0d192c;
+  --lad-navy-800: #14233d;
+  --lad-navy-700: #223757;
+  --lad-navy-100: #e8edf4;
+  --lad-orange-600: #d96800;
+  --lad-orange-500: #ff8a00;
+  --lad-orange-100: #fff0d9;
+  --lad-cyan-600: #078da7;
+  --lad-cyan-500: #14b8d4;
+  --lad-cyan-100: #dff8fc;
+  --lad-slate-700: #40516a;
+  --lad-slate-500: #68778d;
+  --lad-slate-200: #d6dde7;
+  --lad-slate-100: #edf1f6;
+  --lad-white: #ffffff;
+
+  --lad-bg: var(--lad-white);
+  --lad-surface: #f7f9fc;
+  --lad-text: var(--lad-navy-900);
+  --lad-text-muted: var(--lad-slate-700);
+  --lad-border: var(--lad-slate-200);
+  --lad-primary: var(--lad-navy-800);
+  --lad-accent: var(--lad-orange-500);
+  --lad-interactive: var(--lad-cyan-600);
+  --lad-focus: var(--lad-cyan-500);
+  --lad-code-bg: var(--lad-navy-950);
+  --lad-code-text: #eaf3ff;
+
+  --lad-font-sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --lad-font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  --lad-radius-sm: .375rem;
+  --lad-radius-md: .75rem;
+  --lad-radius-lg: 1.25rem;
+}
+
+[data-theme="dark"] {
+  --lad-bg: var(--lad-navy-950);
+  --lad-surface: var(--lad-navy-900);
+  --lad-text: #f4f7fb;
+  --lad-text-muted: #bac5d4;
+  --lad-border: var(--lad-navy-700);
+  --lad-primary: #f4f7fb;
+  --lad-accent: #ff9f2e;
+  --lad-interactive: #48cee3;
+  --lad-focus: #48cee3;
+}
